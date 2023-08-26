@@ -98,7 +98,7 @@ function App() {
       contractAddress, contractAbi, signer
     );
     const time = await contractInstance.getRemainingTime();
-    setremainingTime(parseInt(time, 16));
+    setremainingTime(parseInt(time, 30));
   }
 
   function handleAccountsChanged(accounts) {
